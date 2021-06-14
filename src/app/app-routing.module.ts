@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {HomeComponent} from "./home/home.component";
 import {NavbarComponent} from "./navbar/navbar.component";
+import {ScoreComponent} from "./score/score.component";
 
 const routes: Routes = [
   {
@@ -10,8 +11,8 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path:'navbar',
-    component: NavbarComponent,
+    path:'score',
+    component: ScoreComponent,
     pathMatch: 'full'
   },
 ];
