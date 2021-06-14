@@ -1,0 +1,179 @@
+#logo{
+  text-align: center;
+}
+
+.img-logo{
+  height: 100%;
+  width: 272.3px;
+  margin-left: 10%;
+}
+
+.icon-question{
+  color: #C8CDD0;
+}
+
+.header-home{
+  margin-left: 15px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.round-button-red{
+  color: red;
+}
+
+.round-button-green{
+  color: green;
+}
+
+.section-home{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-align: center;
+  justify-content: center;
+}
+.big-number{
+  font-size: xxx-large;
+  color: #C8CDD0;
+}
+.title-sum-buttons{
+  font-size: xx-large;
+  color: #C8CDD0;
+}
+
+.btn-play-game{
+  background-color: #1F80A6 !important;
+
+}
+
+.border-white {
+  border-color: #fff!important;
+  border-bottom: 3px solid #dee2e6!important;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  p{
+    font-size: 12px;
+    line-height: 18px;
+    font-style: normal;
+  }
+  .step2{
+    margin-left: 10px;
+  }
+}
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+  p{
+    font-size: 14px;
+    line-height: 18px;
+    font-style: normal;
+  }
+}
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3) {
+  p{
+    font-size: 14px;
+    line-height: 18px;
+    font-style: normal;
+  }
+}
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  p{
+    font-size: 24px;
+    line-height: 30px;
+    font-style: normal;
+  }
+  .greeting{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 6px;
+  }
+  .description {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 28px;
+  }
+  .img-logo{
+    height: 45px
+  }
+  .img-step1{
+    align-self: center;
+    height: 150px;
+    width: 128px;
+  }
+  .img-step2{
+    align-self: center;
+    height: 153px;
+    width: 165px;
+  }
+  .img-step3{
+    align-self: center;
+    height: 131px;
+    width: 158px;
+  }
+}
+/* ----------- iPad Pro 12.9" ----------- */
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  p{
+    font-size: 29px;
+    line-height: 31px;
+    font-style: normal;
+  }
+  .greeting{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 6px;
+  }
+  .description {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 28px;
+  }
+  .img-logo{
+    height: 60px
+  }
+  .img-step1{
+    align-self: center;
+    height: 200px;
+    width: 170px;
+  }
+  .img-step2{
+    align-self: center;
+    height: 204px;
+    width: 220px;
+  }
+  .img-step3{
+    align-self: center;
+    height: 174px;
+    width: 210px;
+  }
+}
+
+
+

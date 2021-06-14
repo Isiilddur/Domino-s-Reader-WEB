@@ -1,0 +1,49 @@
+<div id="mainContainer">
+  <div class="row header-home">
+    <fa-icon [icon]="faQuestion" size="2x" class="icon-question"></fa-icon>
+  </div>
+  <div id="logo" class="container py-3 h-100">
+    <img class="img-logo animated bounceIn" src="assets/img/logo_large.png">
+  </div>
+  <div id="playersNumber" class="section-home">
+    <div class="row">
+      <div class="col-4">
+        <button (click)="setPlayers(-1)" class="btn btn-outline-danger"><fa-icon [icon]="faMinusCircle" class="round-button-red" size="2x"></fa-icon></button>
+      </div>
+      <div class="col-4 border-bottom border-white">
+        <span class="big-number">{{playersNumber}}</span>
+      </div>
+      <div  class="col-4">
+        <button (click)="setPlayers(1)" class="btn btn-outline-success"><fa-icon [icon]="faPlusCircle" class="round-button-green" size="2x"></fa-icon></button>
+      </div>
+    </div>
+    <div>
+      <span class="title-sum-buttons">Players</span>
+    </div>
+  </div>
+
+  <div id="scoreNumber" class="section-home">
+    <div class="row">
+      <div class="col-4">
+        <button (click)="setScore(-25)" class="btn btn-outline-danger"><fa-icon [icon]="faMinusCircle" class="round-button-red" size="2x"></fa-icon></button>
+      </div>
+      <div class="col-4 border-bottom border-white" style="border-bottom: 5px">
+        <span class="big-number">{{scoreNumber}}</span>
+      </div>
+      <div  class="col-4">
+        <button (click)="setScore(25)" class="btn btn-outline-success"><fa-icon [icon]="faPlusCircle" class="round-button-green" size="2x"></fa-icon></button>
+      </div>
+    </div>
+    <div>
+      <span class="title-sum-buttons">Score</span>
+    </div>
+  </div>
+
+  <div id="buttonContinuar" class="row section-home">
+    <div class="col-6">
+      <button (click)="setScore(-25)" class="btn btn-primary btn-play-game">Start Game</button>
+    </div>
+  </div>
+
+
+</div>
